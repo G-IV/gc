@@ -11,5 +11,5 @@ test('renders learn react link', () => {
     </Provider>
   );
 
-  expect(getByText(/Hosted by AWS!!/i)).toBeInTheDocument();
+  expect(getByText(/Hosted by AWS/i)).toBeInTheDocument();
 });
